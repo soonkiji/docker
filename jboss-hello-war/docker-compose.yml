@@ -1,6 +1,6 @@
 version: '2'
 services:
-  jboss:
-    build: .
+  appserver:
+    build: hello
     ports:
       - 8080:8080
