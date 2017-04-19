@@ -1,4 +1,4 @@
 # demo
 * build.bat
-* curl http://192.168.99.100:8080/hello/
+* run.bat
 * cleanup.bat
