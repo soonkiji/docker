@@ -1,6 +1,6 @@
 version: '2'
 services:
   appserver:
-    build: hello
+    build: tomcat
     ports:
       - 8080:8080
