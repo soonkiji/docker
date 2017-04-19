@@ -1,8 +1,4 @@
 # demo
-* cd hello
-* mvnw clean install
-* cd ..
-* docker-compose up --force-recreate -d
+* build.bat
 * curl http://192.168.99.100:8080/hello/
-* docker-compose stop
-* docker-compose rm --force
+* cleanup.bat
