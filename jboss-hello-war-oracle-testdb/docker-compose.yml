@@ -1,0 +1,14 @@
+version: '2'
+services:
+  db:
+    build: oracle
+    ports:
+      - 1521:1521
+  appserver:
+    build: jboss
+    depends_on:
+      - db
+    links:
+      - db:orclhost
+    ports:
+      - 8080:8080
