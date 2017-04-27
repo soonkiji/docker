@@ -1,4 +1,4 @@
 # demo
-* build.bat
-* run.bat
-* cleanup.bat
+* build-run.bat
+* test.bat
+* stop-cleanup.bat
